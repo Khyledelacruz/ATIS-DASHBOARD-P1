@@ -121,7 +121,7 @@
         }
         function for_buttons(){
             var previousInfoId;
-            $('#button_section button').click(function() {
+            $('#try a').click(function() {
             var infoId = $(this).attr('data-value');
 
             // Check if the clicked button corresponds to the currently open container
@@ -299,66 +299,56 @@
             <!-- BULSU MAP END -->
 
             <!-- TODO | MAP BIN START -->
-            <div class="try">
+            <div class="try" id="try">
             <!-- BIN 1 START -->
-            <img id="bin_img1b" class="w-[5%] absolute top-[14.5%] left-[13.5%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl" src="images/sidebar/yellowbin.png" alt="img_bin1"/>
-            <div id="bin_info1" class="bg-[#1C1D2F] py-1.5 pl-5 pr-5 w-auto h-fit rounded-r-3xl absolute top-[14.5%] left-[17.5%] z-20">
-                <h1 class="text-white text-sm font-bold ">BIN 1</h1>
-                <h1 class="text-white text-xs mb-1.5 ">Alvarado Hall</h1>
-                <h1 class="text-white text-sm font-semibold" id="bin_status1b"></h1>
-            </div>
+            <a href="#" id="bin_btn1" data-value="1"> 
+            <img id="bin_img1b" class="w-[5%] absolute top-[14.5%] left-[17%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl" src="images/sidebar/yellowbin.png" alt="img_bin1"/>
+            
+          </a>
             <!-- BIN 1 END -->
 
             <!-- BIN 2 START -->
+            <a href="#" id="bin_btn2" data-value="2">
               <img id="bin_img2b"
-                  class="w-[5%] absolute top-[58%] left-[16%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl"
+                  class="w-[5%] absolute top-[57%] left-[19%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl"
                   src="images/sidebar/bluebin.png"
                   alt=""
                 />
-              <div id="bin_info2" class="bg-[#1C1D2F] py-1.5 pl-5 pr-5 w-auto h-fit rounded-r-3xl absolute top-[58%] left-[20%] z-20">
-                <h1 class="text-white text-sm font-bold ">BIN 2</h1>
-                <h1 class="text-white text-xs mb-1.5 ">Pimentel Hall</h1>
-                <h1 class="text-white text-sm font-semibold" id="bin_status2b"></h1>
-              </div>
+              
+              </a>
             <!-- BIN 2 END -->
 
             <!-- BIN 3 START -->
+            <a href="#" id="bin_btn3" data-value="3">
               <img id="bin_img3b"
-                  class="w-[5%] absolute top-[10%] left-[47%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl"
+                  class="w-[5%] absolute top-[8%] left-[45%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl"
                   src="images/sidebar/emptybin.png"
                   alt=""
                 />
-              <div id="bin_info3" class="bg-[#1C1D2F] py-1.5 pl-5 pr-5 w-auto h-fit rounded-r-3xl absolute top-[10%] left-[51%] z-20">
-                <h1 class="text-white text-sm font-bold ">BIN 3</h1>
-                <h1 class="text-white text-xs mb-1.5 ">CHTML Bldg</h1>
-                <h1 class="text-white text-sm font-semibold" id="bin_status3b"></h1>
-              </div>
+              
+            </a>
               <!-- BIN 3 END -->
 
               <!-- BIN 4 START -->
+              <a href="#" id="bin_btn4" data-value="4">
                 <img id="bin_img4b"
-                    class="w-[5%] absolute top-[53%] left-[42%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl"
+                    class="w-[5%] absolute top-[55%] left-[44%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl"
                     src="images/sidebar/fullbin.png"
                     alt="" 
                   />
-                <div id="bin_info4" class="bg-[#1C1D2F] py-1.5 pl-5 pr-5 w-auto h-fit rounded-r-3xl absolute top-[53%] left-[46%] z-20">
-                  <h1 class="text-white text-sm font-bold ">BIN 4</h1>
-                  <h1 class="text-white text-xs mb-1.5 ">Roxas Hall</h1>
-                  <h1 class="text-white text-sm font-semibold" id="bin_status4b"></h1>
-                </div>
+                
+              </a>
               <!-- BIN 4 END -->
 
               <!-- BIN 5 START -->
+              <a href="#" id="bin_btn5" data-value="5">
                 <img id="bin_img5b"
-                    class="w-[5%] absolute bottom-[25%] left-[52%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl"
+                    class="w-[5%] absolute bottom-[25%] left-[59%] z-10 bg-[#22223B] py-2 px-.5 rounded-xl"
                     src="images/sidebar/errorbin.png"
                     alt=""
                   />
-                <div id="bin_info5" class="bg-[#FF2400] py-1 pl-5 pr-5 w-auto h-fit rounded-r-3xl absolute bottom-[25%] left-[56%] z-20">
-                  <h1 class="text-white text-sm font-bold ">BIN 5</h1>
-                  <h1 class="text-white text-xs mb-1.5 ">Natividad Hall</h1>
-                  <h1 class="text-white text-sm font-semibold" id="bin_status5b"></h1>
-                </div>
+               
+              </a>
               <!-- BIN 5 END -->
             </div>
               <!-- TODO | MAP BIN END -->
